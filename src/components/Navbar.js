@@ -3,10 +3,12 @@ import { links } from '../utils/links';
 import { Link } from 'react-router-dom';
 import { BiCaretUp, BiCaretDown } from 'react-icons/bi';
 import { FaBars } from 'react-icons/fa';
-
-const openSidebar = () => {};
+import { FaTimes } from 'react-icons/fa';
+import { useGlobalContext } from '../context';
 
 const Navbar = () => {
+  const { toggleSidebar, isSidebarOpen } = useGlobalContext();
+
   return (
     <nav className='nav-container'>
       <div className='nav-header'>
@@ -20,15 +22,15 @@ const Navbar = () => {
             </span>
           </Link>
         </div>
-        <button type='button' className='nav-toggle' onClick={openSidebar}>
-          <FaBars />
+        <button type='button' className='nav-toggle' onClick={toggleSidebar}>
+          {isSidebarOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
-      <div className='links'>
+      <div className='nav-links'>
         <ul>
           {links.map((item) => {
             return (
-              <li key={item.id}>
+              <li key={item.id} className='nav-link'>
                 <Link to={item.url}>{item.text}</Link>
               </li>
             );

@@ -27,7 +27,7 @@ Variables
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-blue-shadow: 0 5px 15px rgba(83, 104, 223, 0.2);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --max-width: 1440px;
+  --max-width: 1750px;
   --min-width: 375px;
   --fs-size-sm: 1.125rem;
 }
@@ -122,6 +122,10 @@ p {
     padding: 1.2rem 1.5rem;
   }
 }
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 768px) {
+}
 /*
 =============== 
 Styles
@@ -135,8 +139,9 @@ Navbar
 .nav-container {
   width: 85vw;
   margin: 2rem auto;
+  max-width: var(--max-width);
 }
-.links {
+.nav-links ul {
   display: none;
 }
 .nav-header {
@@ -167,5 +172,95 @@ Navbar
   transition: var(--transition);
 }
 .nav-toggle:hover {
-  opacity: 60%;
+  color: var(--clr-primary-cyan);
+}
+@media screen and (min-width: 768px) {
+  .nav-toggle {
+    display: none;
+  }
+  .nav-links ul {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25rem;
+    color: var(--clr-primary-grayish-dark-blue);
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-link {
+    font-family: var(--ff-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  .nav-link a {
+    color: var(--clr-primary-grayish-dark-blue);
+    transition: var(--transition);
+  }
+  .nav-link a:hover {
+    color: var(--clr-primary-cyan);
+  }
+}
+@media screen and (min-width: 968px) {
+  .nav-link {
+    letter-spacing: 0.15rem;
+    font-size: 0.9rem;
+  }
+  .nav-links ul {
+    width: 30rem;
+  }
+}
+
+/*
+=============== 
+Sidebar
+===============
+*/
+.sidebar {
+  position: fixed;
+  top: 8rem;
+  right: 2rem;
+  width: 16rem;
+  height: 12rem;
+  background: var(--clr-primary-grayish-dark-blue);
+  color: var(--clr-primary-very-light-grey);
+  transition: var(--transition);
+  transform: translate(120%);
+  z-index: -1;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.show-sidebar {
+  transform: translate(0);
+  z-index: 999;
+}
+.sidebar-links {
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-align: center;
+}
+.sidebar-link {
+  margin: 1.5rem auto;
+}
+.sidebar-link a {
+  color: var(--clr-primary-very-light-grey);
+  transition: var(--transition);
+}
+.sidebar-link a:hover {
+  color: var(--clr-primary-cyan);
+}
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }
