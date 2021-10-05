@@ -1,5 +1,5 @@
 import React from 'react';
-import { links } from '../utils/links';
+import { links } from '../utils/constants';
 import { Link } from 'react-router-dom';
 import { BiCaretUp, BiCaretDown } from 'react-icons/bi';
 import { FaBars } from 'react-icons/fa';
