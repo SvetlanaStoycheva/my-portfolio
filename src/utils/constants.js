@@ -21,5 +21,6 @@ export const gallery = [
 export const links = [
   { id: 1, text: 'home', url: '/' },
   { id: 2, text: 'portfolio', url: '/projects' },
-  { id: 3, text: 'contact me', url: '/contact' },
+  { id: 3, text: 'about me', url: '/about' },
+  { id: 4, text: 'contact me', url: '/contact' },
 ];
