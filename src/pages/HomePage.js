@@ -39,6 +39,18 @@ const HomePage = () => {
           </button>
         </div>
       </section>
+      <div className='say-hi'>
+        <h3 className='section-title say-hi-title'>get in touch</h3>
+        <div className='line'>
+          <hr className='say-hi-line' />
+        </div>
+
+        <button className='btn-clean ' type='button'>
+          <Link className='btn-clean-text' to='/contact'>
+            contact me
+          </Link>
+        </button>
+      </div>
     </main>
   );
 };

@@ -233,7 +233,13 @@ Navbar
     width: 25rem;
     color: var(--clr-primary-grayish-dark-blue);
   }
-
+  .left-arrow,
+  .right-arrow {
+    font-size: 4rem;
+  }
+  .right-arrow {
+    margin-left: -2rem;
+  }
   .nav-container {
     display: flex;
     justify-content: space-between;
@@ -408,6 +414,44 @@ Home Page
     height: 23rem;
   }
 }
+/* say hi section */
+.say-hi {
+  width: 85vw;
+  margin: 3rem auto;
+  display: grid;
+  place-items: center;
+  margin-bottom: 4rem;
+}
+.say-hi-title {
+  text-align: center;
+  margin-bottom: -2.5rem;
+}
+.say-hi-line {
+  width: 14rem;
+  height: 2px;
+  margin-bottom: 2rem;
+  color: var(--clr-primary-light-grey);
+  visibility: hidden;
+}
+@media screen and (min-width: 768px) {
+  .say-hi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  .say-hi-title {
+    margin-bottom: 1.5rem;
+  }
+  .say-hi-line {
+    visibility: visible;
+  }
+}
+@media screen and (min-width: 900px) {
+  .say-hi-line {
+    width: 30vw;
+  }
+}
 
 /*
 =============== 
@@ -466,5 +510,77 @@ About Page
   }
   .about-line {
     margin-top: -4rem;
+  }
+}
+
+/*
+=============== 
+Footer
+===============
+*/
+.footer-container {
+  background: var(--clr-primary-grayish-dark-blue);
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+}
+.footer-arror {
+  color: var(--clr-primary-very-light-grey);
+}
+.footer-link a {
+  color: var(--clr-primary-very-light-grey);
+}
+.footer-links {
+  margin-top: -1.5rem;
+  margin-bottom: 2rem;
+}
+.footer-social-links-container ul {
+  display: flex;
+}
+.social-link a {
+  font-size: 2rem;
+  margin: 0.5rem;
+  color: var(--clr-primary-very-light-grey);
+  transition: var(--transition);
+}
+.social-link a:hover {
+  color: var(--clr-primary-cyan);
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr auto;
+    justify-content: left;
+    padding: 0rem 3rem;
+  }
+  .footer-links-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: left;
+  }
+  .footer-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 26rem;
+  }
+  .footer-link a {
+    font-size: 0.7rem;
+  }
+  .footer-links {
+    margin: 0;
+  }
+  .social-link a {
+    font-size: 1.5rem;
+  }
+  .footer-logo {
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (min-width: 990px) {
+  .footer-container {
+    column-gap: 6rem;
+    padding: 0 8rem;
   }
 }
