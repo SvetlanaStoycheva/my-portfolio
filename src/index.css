@@ -759,3 +759,41 @@ Projects Page
     height: 25rem;
   }
 }
+/*
+=============== 
+Contact Page
+===============
+*/
+.contact-container {
+  width: 85vw;
+  max-width: var(--max-width);
+  height: 35vh;
+  margin: 0 auto;
+}
+.contact-social-link {
+  color: var(--clr-primary-grayish-dark-blue);
+}
+.contacts-email {
+  color: var(--clr-primary-grayish-dark-blue);
+}
+.contact-info p {
+  margin-bottom: 2rem;
+}
+.contact-social-link-container {
+  display: flex;
+  justify-content: right;
+  margin: 2rem 0;
+}
+.contact-social-link a {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+}
+.contact-social-link a:hover {
+  color: var(--clr-primary-cyan);
+}
+@media screen and (min-width: 768px) {
+  .contact-container {
+    height: 72vh;
+  }
+}
