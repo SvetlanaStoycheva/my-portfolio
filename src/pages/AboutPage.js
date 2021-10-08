@@ -35,7 +35,7 @@ const AboutPage = () => {
               <span className='skills-icon'>
                 <MdPlayArrow />
               </span>
-              <p>CSS</p>
+              <p>HTML/CSS</p>
             </div>
             <div>
               <span className='skills-icon'>
@@ -52,14 +52,42 @@ const AboutPage = () => {
           </div>
           <div className='skils-text'>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-              ipsum perferendis itaque ipsam atque cupiditate architecto quas
-              quam enim expedita! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Labore ipsum perferendis itaque ipsam atque
-              cupiditate architecto quas quam enim expedita! Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Labore ipsum perferendis
-              itaque ipsam atque cupiditate architecto quas quam enim expedita!
+              I started learning programming basics with the free online
+              lectures and exercises that SoftUni offered ca. two years ago. I
+              took the Entry Module, Fundamentals Molule and from the JS Web
+              Developer Module, the JS Advanced Course. Then I discovered the
+              John Smilga's courses on YouTube and took some of them on Udemy:
+              Javascript Tutorial and Projects Course, HTML & CSS Tutorial and
+              Projects Course, React Tutorial and Projects Course. Some of the
+              projects on my portfolio are inspired from his final course
+              projects. Lately I found the Frontend Mentor platform, which
+              provides variety of front-end challenges and enables you to
+              practice building websites to a design (figma design file) and
+              project brief. Working on these projects has helped me to start
+              finding my own workflow and solve real-world coding problems.
             </p>
+            <div className='social-buttons'>
+              <button className='btn-clean about-btn' type='button'>
+                <a
+                  className='btn-clean-text'
+                  href='https://github.com/SvetlanaStoycheva'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  my gitHub
+                </a>
+              </button>
+              <button className='btn-clean about-btn' type='button'>
+                <a
+                  className='btn-clean-text'
+                  href='https://www.frontendmentor.io/profile/SvetlanaStoycheva/solutions'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  my frontend mentor
+                </a>
+              </button>
+            </div>
           </div>
         </div>
         <div className='skills'>
@@ -79,11 +107,18 @@ const AboutPage = () => {
           </div>
           <div className='skils-text'>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-              ipsum perferendis itaque ipsam atque cupiditate architecto quas
-              quam enim expedita! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Labore ipsum perferendis itaque ipsam atque
-              cupiditate architecto quas quam enim expedita! Lorem ipsum dolor
+              I've been fortunate enough to have spent four years in the
+              University of Heidelberg, being parf of some of the scientific
+              projects in the{' '}
+              <a
+                href='https://www.pci.uni-heidelberg.de//apc/index.html'
+                target='_blank'
+                rel='noreferrer noopener'
+              >
+                Applied Physical Chemistry Institut
+              </a>
+              . I did enjoy a lot my time in the beautiful Heidelberg, working
+              and generally spending time with my international colleagues.
             </p>
           </div>
         </div>
