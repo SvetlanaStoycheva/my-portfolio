@@ -158,8 +158,16 @@ p {
   margin: 1.5rem 0;
   max-width: 60vw;
 }
+.line {
+  display: inline-block;
+  width: 100%;
+  border-top: 0.5px solid var(--clr-primary-light-grey);
+  opacity: 50%;
+}
 .long-line {
+  display: inline-block;
   width: 85vw;
+  border-top: 0.5px solid var(--clr-primary-light-grey);
   margin: 0 auto;
   opacity: 50%;
 }
@@ -391,10 +399,6 @@ Home Page
   background: linear-gradient(rgb(44, 109, 140, 0.4), rgba(0, 0, 0, 0.4)),
     url('./utils/gallery-images/me.jpg') center/cover no-repeat;
 }
-.line {
-  margin-top: 2rem;
-  opacity: 40%;
-}
 .about-btn {
   margin-top: 2rem;
 }
@@ -434,13 +438,8 @@ Home Page
 }
 .say-hi-title {
   text-align: center;
-  margin-bottom: -2.5rem;
 }
 .say-hi-line {
-  width: 14rem;
-  height: 2px;
-  margin-bottom: 2rem;
-  color: var(--clr-primary-light-grey);
   visibility: hidden;
 }
 @media screen and (min-width: 768px) {
@@ -473,7 +472,9 @@ About Page
   max-width: var(--max-width);
 }
 .about-line {
-  margin-top: -1rem;
+  margin: 0 auto;
+  margin-left: 10vw;
+  width: 80vw;
 }
 .skills-container {
   width: 85vw;
@@ -525,8 +526,8 @@ About Page
   .name-skills {
     width: 18rem;
   }
-  .about-line {
-    margin-top: -4rem;
+  .about-section {
+    margin-bottom: 2.5rem;
   }
 }
 

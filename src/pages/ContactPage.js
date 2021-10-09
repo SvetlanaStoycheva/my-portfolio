@@ -5,14 +5,14 @@ import { SiFrontendmentor } from 'react-icons/si';
 const ContactPage = () => {
   return (
     <section className='contact-container'>
-      <hr className='long-line' />
+      <span className='long-line'></span>
       <h3 className='section-title'>get in touch</h3>
       <div className='contact-info'>
         <p>
           If you are looking to get ahold of me, you can send me an email at{' '}
           <span className='contacts-email'>s.stoycheva@gmail.com</span>
         </p>
-        <hr className='long-line' />
+        <span className='long-line'></span>
         <div className='contact-social-link-container'>
           <li className=' contact-social-link'>
             <a

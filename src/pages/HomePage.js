@@ -20,7 +20,7 @@ const HomePage = () => {
       <section className='about-section'>
         <div className='about-img-container'></div>
         <div className='about-info-container'>
-          <hr className='line' />
+          <span className='line'></span>
           <h3 className='section-title'>about me</h3>
           <p>
             Hello! My name is Svetlana and I enjoy creating things that live on
@@ -41,9 +41,8 @@ const HomePage = () => {
       </section>
       <div className='say-hi'>
         <h3 className='section-title say-hi-title'>get in touch</h3>
-        <div className='line'>
-          <hr className='say-hi-line' />
-        </div>
+
+        <span className='line say-hi-line'></span>
 
         <button className='btn-clean ' type='button'>
           <Link className='btn-clean-text' to='/contact'>

@@ -8,7 +8,7 @@ const AboutPage = () => {
       <section className='about-section'>
         <div className='about-img-container'></div>
         <div className='about-info-container'>
-          <hr className='line' />
+          <span className='line'></span>
           <h3 className='section-title'>about me</h3>
           <p>
             Hello! My name is Svetlana and I enjoy creating things that live on
@@ -27,7 +27,7 @@ const AboutPage = () => {
           </button>
         </div>
       </section>
-      <hr className='long-line about-line' />
+      <span className='long-line about-line'></span>
       <section className='skills-container'>
         <div className='skills'>
           <div className='name-skills'>
