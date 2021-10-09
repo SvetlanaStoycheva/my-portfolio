@@ -54,12 +54,12 @@ const AboutPage = () => {
             <p>
               I started learning programming basics with the free online
               lectures and exercises that SoftUni offered ca. two years ago. I
-              took the Entry Module, Fundamentals Molule and from the JS Web
+              took the Entry Module, the Fundamentals Molule and from the JS Web
               Developer Module, the JS Advanced Course. Then I discovered the
               John Smilga's courses on YouTube and took some of them on Udemy:
               Javascript Tutorial and Projects Course, HTML & CSS Tutorial and
               Projects Course, React Tutorial and Projects Course. Some of the
-              projects on my portfolio are inspired from his final course
+              projects on my portfolio are inspired by his final course
               projects. Lately I found the Frontend Mentor platform, which
               provides variety of front-end challenges and enables you to
               practice building websites to a design (figma design file) and

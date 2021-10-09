@@ -31,7 +31,7 @@ export const projects = [
     title: 'Online shop for clothing brand PlatForma',
     subtitle: 'HTML/CSS/React JS/netlify serverless functions',
     info:
-      "The project is inspired by Comfy Store project from John Smilga's React tutorial. The product's data is stored and controlled in  graphical interface 'Airtable'. As a server is used serverless netlify functions. The online shop contains home page (navbar/sidebar, featured products), products page with sorting (by price and name) and filtering (color, price, occasion, etc.), single product page (reviews with stars, product colors), shopping cart (product quantity, clear cart)",
+      "The project is inspired by Comfy Store project from John Smilga's React course. The product's data is stored and controlled in  graphical interface 'Airtable'. As a server is used serverless netlify functions. The online shop contains home page (navbar/sidebar, featured products), products page with sorting (by price and name) and filtering (color, price, occasion, etc.), single product page (reviews with stars, product colors), shopping cart (product quantity, clear cart)",
     img: img02,
     url: 'https://sweta-react-store-platforma.netlify.app',
     sourceCode: 'https://github.com/SvetlanaStoycheva/react-PlatForma-store',
@@ -66,7 +66,7 @@ export const projects = [
     title: 'Space Travel Company Website - Your Seat To Space',
     subtitle: 'HTML/CSS/Vanilla JS/Netlify serverless functions',
     info:
-      "The project is inspired by Comfy project from John Smilga's JavaScript tutorial. The displayed data is fetched from a Netlify serverless function and it is saved on the locale Storage. The user can choose and order his/her preferred space travel adventure from many, that are offered by different companies like SpaceX, Virgin Galactic, etc. The website contains: home page with featured flights and a slider, flights page with filtering options by company and price, single flight page with detailed information and shopping cart",
+      "The project is inspired by Comfy project from John Smilga's JavaScript course. The displayed data is fetched from a Netlify serverless function and it is saved on the locale Storage. The user can choose and order his/her preferred space travel adventure from many, that are offered by different companies like SpaceX, Virgin Galactic, etc. The website contains: home page with featured flights and a slider, flights page with filtering options by company and price, single flight page with detailed information and shopping cart",
     img: img01,
     url: 'https://your-seat-to-space.netlify.app',
     sourceCode:
@@ -87,10 +87,10 @@ export const projects = [
   },
   {
     id: 6,
-    title: 'Website for ski quiding company PowderWise Aspen',
+    title: 'Website for ski guiding company PowderWise Aspen',
     subtitle: 'CSS Flexbox',
     info:
-      'The project is inspired by the CSS flexbox project in the John Smilga CSS tutorial. The app is a responsive website that contains: navbar/sidebar, hero with title and call-to-action button, about section, services section, featured tours (cards with hover effects), contact form, gallery and footer',
+      'The project is inspired by the CSS flexbox project in the John Smilga CSS course. It is a responsive website that contains: navbar/sidebar, hero with title and call-to-action button, about section, services section, featured tours (cards with hover effects), contact form, gallery and footer',
     img: img04,
     url: 'https://sweta-css-flexbox-ski-touring-powderwise.netlify.app',
     sourceCode:
