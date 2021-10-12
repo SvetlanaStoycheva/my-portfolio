@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <div className='about-page-container'>
       <section className='about-section'>
-        <div className='about-img-container'></div>
+        <div className='about-img-container-office'></div>
         <div className='about-info-container'>
           <span className='line'></span>
           <h3 className='section-title'>about me</h3>
@@ -61,8 +61,8 @@ const AboutPage = () => {
               Projects Course, React Tutorial and Projects Course. Some of the
               projects on my portfolio are inspired by his final course
               projects. Lately I found the Frontend Mentor platform, which
-              provides variety of front-end challenges and enables you to
-              practice building websites to a design (figma design file) and
+              provides a variety of front-end challenges and enables you to
+              practice building websites to a design (figma design file) and a
               project brief. Working on these projects has helped me to start
               finding my own workflow and solve real-world coding problems.
             </p>
@@ -107,8 +107,8 @@ const AboutPage = () => {
           </div>
           <div className='skils-text'>
             <p>
-              I've been fortunate enough to have spent four years in the
-              University of Heidelberg, being parf of some of the scientific
+              I've been fortunate enough to have spent four years at the
+              University of Heidelberg, being part of some of the scientific
               projects in the{' '}
               <a
                 href='https://www.pci.uni-heidelberg.de//apc/index.html'

@@ -41,7 +41,7 @@ const HomePage = () => {
       </section>
       <div className='say-hi'>
         <h3 className='section-title say-hi-title'>get in touch</h3>
-
+        {/* <hr /> */}
         <span className='line say-hi-line'></span>
 
         <button className='btn-clean ' type='button'>

@@ -54,7 +54,7 @@ export const projects = [
     title: 'IP Address Tracker',
     subtitle: 'HTML/CSS/React JS/APIs',
     info:
-      'Frontend Mentor challenge. This App uses an API to get the IP Address location and a react map library to generate the map. On the initial page load, the user can see his/her own IP Address on the map. They can search for any IP addresses or domains and see the key information and location.',
+      'Frontend Mentor challenge. This App uses an API to get the IP Address location and a react map library to generate the map. On the initial page load, the user can see their own IP Address on the map. They can search for any IP addresses or domains and see the key information and location.',
     img: img05,
     url: 'https://sweta-fm-ip-tracker.netlify.app',
     sourceCode:
@@ -66,7 +66,7 @@ export const projects = [
     title: 'Space Travel Company Website - Your Seat To Space',
     subtitle: 'HTML/CSS/Vanilla JS/Netlify serverless functions',
     info:
-      "The project is inspired by Comfy project from John Smilga's JavaScript course. The displayed data is fetched from a Netlify serverless function and it is saved on the locale Storage. The user can choose and order his/her preferred space travel adventure from many, that are offered by different companies like SpaceX, Virgin Galactic, etc. The website contains: home page with featured flights and a slider, flights page with filtering options by company and price, single flight page with detailed information and shopping cart",
+      "The project is inspired by Comfy project from John Smilga's JavaScript course. The displayed data is fetched from a Netlify serverless function and it is saved on the locale Storage. The user can choose and order their preferred space travel adventure from many, that are offered by different companies like SpaceX, Virgin Galactic, etc. The website contains: home page with featured flights and a slider, flights page with filtering options by company and price, single flight page with detailed information and shopping cart",
     img: img01,
     url: 'https://your-seat-to-space.netlify.app',
     sourceCode:

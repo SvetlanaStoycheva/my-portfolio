@@ -158,6 +158,10 @@ p {
   margin: 1.5rem 0;
   max-width: 60vw;
 }
+hr {
+  border: none;
+  border-top: 1px solid var(--clr-primary-light-grey);
+}
 .line {
   display: inline-block;
   width: 100%;
@@ -219,8 +223,10 @@ Navbar
   color: var(--clr-primary-grayish-dark-blue);
   transition: var(--transition);
 }
-.left-arrow:hover,
-.right-arrow:hover {
+.logo {
+  transition: var(--transition);
+}
+.logo:hover {
   opacity: 60%;
 }
 .right-arrow {
@@ -350,7 +356,7 @@ Home Page
 .hero-img {
   width: 85vw;
   height: 50vh;
-  background: linear-gradient(rgb(44, 109, 140, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(rgb(44, 109, 140, 0.6), rgba(0, 0, 0, 0.6)),
     url('./utils/gallery-images/hero-bcg.jpg') center/cover no-repeat;
 }
 
@@ -497,7 +503,17 @@ About Page
   justify-content: space-between;
   margin-bottom: 2rem;
 }
+.about-img-container-office {
+  width: 55vw;
+  height: 50vh;
+  margin: 0 auto;
+  background: linear-gradient(rgb(44, 109, 140, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./utils/gallery-images/me_02.jpg') center/cover no-repeat;
+}
 @media screen and (min-width: 768px) {
+  .about-img-container-office {
+    width: 16rem;
+  }
   .about-page-container {
     margin-top: -4rem;
   }
@@ -517,6 +533,11 @@ About Page
   }
 }
 @media screen and (min-width: 900px) {
+  .about-img-container-office {
+    width: 18rem;
+
+    margin-top: 2rem;
+  }
   .skills {
     column-gap: 6rem;
   }
