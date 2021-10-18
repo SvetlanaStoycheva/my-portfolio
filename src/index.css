@@ -19,6 +19,7 @@ Variables
   --clr-primary-grayish-dark-blue: hsl(245, 10%, 22%);
   --clr-primary-very-light-grey: hsl(0, 0%, 98%);
   --clr-primary-light-grey: hsl(240, 1%, 52%);
+  --clr-primary-light-grey-2: hsl(240, 6%, 75%);
   --clr-primary-bright-red: hsl(0, 90%, 57%);
   /* single projects colors */
   --clr-01: hsl(349, 16%, 80%);
@@ -160,20 +161,18 @@ p {
 }
 hr {
   border: none;
-  border-top: 1px solid var(--clr-primary-light-grey);
+  border-top: 1px solid var(--clr-primary-light-grey-2);
 }
 .line {
   display: inline-block;
   width: 100%;
-  border-top: 0.5px solid var(--clr-primary-light-grey);
-  opacity: 50%;
+  border-top: 1px solid var(--clr-primary-light-grey-2);
 }
 .long-line {
   display: inline-block;
   width: 85vw;
-  border-top: 0.5px solid var(--clr-primary-light-grey);
+  border-top: 1px solid var(--clr-primary-light-grey-2);
   margin: 0 auto;
-  opacity: 50%;
 }
 .section-center {
   width: 90vw;
@@ -227,7 +226,7 @@ Navbar
   transition: var(--transition);
 }
 .logo:hover {
-  opacity: 60%;
+  color: var(--clr-primary-light-grey-2);
 }
 .right-arrow {
   margin-left: -2.5rem;

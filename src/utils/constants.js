@@ -3,7 +3,7 @@ import img02 from './gallery-images/img-02.png';
 import img03 from './gallery-images/img-03.png';
 import img04 from './gallery-images/img-04.png';
 import img05 from './gallery-images/img-05.png';
-// import img06 from './gallery-images/img-06.png';
+import img08 from './gallery-images/img-08.png';
 import img07 from './gallery-images/img-07.png';
 // import img08 from './gallery-images/img-08.png';
 
@@ -28,6 +28,18 @@ export const links = [
 export const projects = [
   {
     id: 1,
+    title: 'Planets Facts App',
+    subtitle: 'HTML/CSS/React JS',
+    info:
+      "It is a 8-page planets fact site built according to a project and figma design brief from Frontend Mentor. On each planet page user can toggle between the 'Overview', 'Internal Structure', and 'Surface Geology' tabs. The rendered data is in a local data.js file. Responsive design.",
+    img: img08,
+    url: 'https://sweta-fm-planets-facts.netlify.app',
+    sourceCode:
+      'https://github.com/SvetlanaStoycheva/planets-facts-FM-react-app',
+    borderClass: 'border06',
+  },
+  {
+    id: 2,
     title: 'Online shop for clothing brand PlatForma',
     subtitle: 'HTML/CSS/React JS/netlify serverless functions',
     info:
@@ -38,7 +50,7 @@ export const projects = [
     borderClass: 'border01',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Clock app',
     subtitle: 'HTML/CSS/React JS/APIs',
     info:
@@ -50,7 +62,7 @@ export const projects = [
     borderClass: 'border02',
   },
   {
-    id: 3,
+    id: 4,
     title: 'IP Address Tracker',
     subtitle: 'HTML/CSS/React JS/APIs',
     info:
@@ -62,7 +74,7 @@ export const projects = [
     borderClass: 'border03',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Space Travel Company Website - Your Seat To Space',
     subtitle: 'HTML/CSS/Vanilla JS/Netlify serverless functions',
     info:
@@ -74,7 +86,7 @@ export const projects = [
     borderClass: 'border04',
   },
   {
-    id: 5,
+    id: 6,
     title: 'URL shortening landing page',
     subtitle: 'HTML/CSS/React JS/API',
     info:
@@ -86,7 +98,7 @@ export const projects = [
     borderClass: 'border05',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Website for ski guiding company PowderWise Aspen',
     subtitle: 'CSS Flexbox',
     info:
