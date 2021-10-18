@@ -43,7 +43,7 @@ export const projects = [
     title: 'Online shop for clothing brand PlatForma',
     subtitle: 'HTML/CSS/React JS/netlify serverless functions',
     info:
-      "The project is inspired by Comfy Store project from John Smilga's React course. The product's data is stored and controlled in  graphical interface 'Airtable'. As a server is used serverless netlify functions. The online shop contains home page (navbar/sidebar, featured products), products page with sorting (by price and name) and filtering (color, price, occasion, etc.), single product page (reviews with stars, product colors), shopping cart (product quantity, clear cart)",
+      "The project is inspired by Comfy Store project from John Smilga's React course. The product's data is stored and controlled in  graphical interface 'Airtable'. As a server is used serverless netlify functions. The online shop contains home page (navbar/sidebar, featured products), products page with sorting (by price and name) and filtering (color, price, occasion, etc.), single product page (reviews with stars, product colors) and shopping cart (product quantity, clear cart).",
     img: img02,
     url: 'https://sweta-react-store-platforma.netlify.app',
     sourceCode: 'https://github.com/SvetlanaStoycheva/react-PlatForma-store',
@@ -54,7 +54,7 @@ export const projects = [
     title: 'Clock app',
     subtitle: 'HTML/CSS/React JS/APIs',
     info:
-      "Frontend Mentor challenge. Using external APIs to set the clock data based on the visitor's location and to show random generated quotes. User can: View the current time and location information based on their IP address; View additional information about the date and time in the expanded state (sidebar); Be shown the correct greeting and background image based on the time of day they're visiting the site; Generate random programming quotes by clicking the refresh icon near the quote",
+      "Frontend Mentor challenge. The clock app uses external APIs to set the clock data based on the visitor's location as well as an API to show random generated quotes. User can: View the current time and location information based on their IP address; View additional information about the date and time in the expanded state (sidebar); Be shown the correct greeting and background image based on the time of day they're visiting the site; Generate random programming quotes by clicking the refresh icon near the quote",
     img: img03,
     url: 'https://sweta-fm-clock-app.netlify.app',
     sourceCode:
@@ -66,7 +66,7 @@ export const projects = [
     title: 'IP Address Tracker',
     subtitle: 'HTML/CSS/React JS/APIs',
     info:
-      'Frontend Mentor challenge. This App uses an API to get the IP Address location and a react map library to generate the map. On the initial page load, the user can see their own IP Address on the map. They can search for any IP addresses or domains and see the key information and location.',
+      "Frontend Mentor challenge. This App uses an API to get the user's IP Address location and a react map library to generate the map. On the initial page load, the user can see their own IP Address on the map. They can search for any IP addresses or domains and see the key information and location.",
     img: img05,
     url: 'https://sweta-fm-ip-tracker.netlify.app',
     sourceCode:
