@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
 
 const Sidebar = () => {
-  const { isSidebarOpen } = useGlobalContext();
+  const { isSidebarOpen, setIsSidebarOpen } = useGlobalContext();
 
   return (
     <aside className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}>
@@ -12,7 +12,9 @@ const Sidebar = () => {
         {links.map((item) => {
           return (
             <li key={item.id} className='sidebar-link'>
-              <Link to={item.url}>{item.text}</Link>
+              <Link onClick={() => setIsSidebarOpen(false)} to={item.url}>
+                {item.text}
+              </Link>
             </li>
           );
         })}
