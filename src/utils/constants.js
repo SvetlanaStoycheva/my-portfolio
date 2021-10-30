@@ -5,6 +5,8 @@ import img04 from './gallery-images/img-04.png';
 import img05 from './gallery-images/img-05.png';
 import img08 from './gallery-images/img-08.png';
 import img07 from './gallery-images/img-07.png';
+import img09 from './gallery-images/img-09.png';
+import img10 from './gallery-images/img-10.png';
 // import img08 from './gallery-images/img-08.png';
 
 // export const gallery = [
@@ -75,6 +77,29 @@ export const projects = [
   },
   {
     id: 5,
+    title: 'Coffeeroasters subscription site',
+    subtitle: 'HTML/CSS/React JS',
+    info:
+      'Frontend Mentor challenge. The project is a 3-page coffee subscription website. The user can create their coffee subscription plan by making the preferred selections. When they are ready with all of the selections and only then, they can see an order summary modal of their choices, which is ready to be checked out.',
+    img: img09,
+    url: 'https://sweta-coffeeroasters-subscription-site-fm.netlify.app',
+    sourceCode:
+      'https://github.com/SvetlanaStoycheva/coffeeroasters-subscription-site-FM-react',
+    borderClass: 'border07',
+  },
+  {
+    id: 6,
+    title: 'Play your kind of Candy Crush game',
+    subtitle: 'HTML/CSS/React JS',
+    info:
+      'Candy Crush game with the option to choose the type of images. User can swipe an image in any direction to create sets of 3 or 4 matching images. When matched, the images will crush and shift the images above them. The game logic is accomplished with the help of a tutorial given in the github description.',
+    img: img10,
+    url: 'https://sweta-candy-crash.netlify.app',
+    sourceCode: 'https://github.com/SvetlanaStoycheva/candy-crush-react',
+    borderClass: 'border06',
+  },
+  {
+    id: 7,
     title: 'Space Travel Company Website - Your Seat To Space',
     subtitle: 'HTML/CSS/Vanilla JS/Netlify serverless functions',
     info:
@@ -86,7 +111,7 @@ export const projects = [
     borderClass: 'border04',
   },
   {
-    id: 6,
+    id: 8,
     title: 'URL shortening landing page',
     subtitle: 'HTML/CSS/React JS/API',
     info:
@@ -98,7 +123,7 @@ export const projects = [
     borderClass: 'border05',
   },
   {
-    id: 7,
+    id: 9,
     title: 'Website for ski guiding company PowderWise Aspen',
     subtitle: 'CSS Flexbox',
     info:
