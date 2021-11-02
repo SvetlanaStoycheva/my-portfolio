@@ -7,6 +7,7 @@ import img08 from './gallery-images/img-08.png';
 import img07 from './gallery-images/img-07.png';
 import img09 from './gallery-images/img-09.png';
 import img10 from './gallery-images/img-10.png';
+import img11 from './gallery-images/img-11.png';
 // import img08 from './gallery-images/img-08.png';
 
 // export const gallery = [
@@ -100,6 +101,18 @@ export const projects = [
   },
   {
     id: 7,
+    title: 'To do App',
+    subtitle: 'HTML/CSS/React JS',
+    info:
+      'Frontend Mentor challenge. This is a To Do App, where the user can: add new todos to the list, mark todos as complete, delete todos from the list, filter by all/active/complete todos, clear all completed todos. The user todo list is saved on localStorage. There is a light and dark mode toggle functionality',
+    img: img11,
+    url: 'https://sweta-todo-app.netlify.app',
+    sourceCode:
+      'https://github.com/SvetlanaStoycheva/frontend-mentor-challenges-React-JS/tree/main/02-Project-todo-app',
+    borderClass: 'border02',
+  },
+  {
+    id: 8,
     title: 'Space Travel Company Website - Your Seat To Space',
     subtitle: 'HTML/CSS/Vanilla JS/Netlify serverless functions',
     info:
@@ -111,7 +124,7 @@ export const projects = [
     borderClass: 'border04',
   },
   {
-    id: 8,
+    id: 9,
     title: 'URL shortening landing page',
     subtitle: 'HTML/CSS/React JS/API',
     info:
@@ -123,7 +136,7 @@ export const projects = [
     borderClass: 'border05',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Website for ski guiding company PowderWise Aspen',
     subtitle: 'CSS Flexbox',
     info:
@@ -134,16 +147,4 @@ export const projects = [
       'https://github.com/SvetlanaStoycheva/CSS-flexbox-PowderWise-ski-touring-Aspen',
     borderClass: 'border06',
   },
-  // {
-  //   id: 7,
-  //   title: 'Clock app',
-  //   subtitle: 'HTML/CSS/React JS/APIs',
-  //   info:
-  //     "Frontend Mentor challenge. Using external APIs to set the clock data based on the visitor's location and to show random generated quotes. User can: View the current time and location information based on their IP address; View additional information about the date and time in the expanded state (sidebar); Be shown the correct greeting and background image based on the time of day they're visiting the site; Generate random programming quotes by clicking the refresh icon near the quote",
-  //   img: img03,
-  //   url: 'https://sweta-fm-clock-app.netlify.app',
-  //   sourceCode:
-  //     'https://github.com/SvetlanaStoycheva/frontend-mentor-challenges-React-JS/tree/main/04-Project-Clock-app',
-  //   borderClass: 'border07',
-  // },
 ];

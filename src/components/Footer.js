@@ -11,10 +11,10 @@ const Footer = () => {
       <div className='footer-links-container'>
         <div className='footer-logo'>
           <Link to='/'>
-            <span className='left-arrow footer-arror'>
+            <span className='left-arrow footer-arrow'>
               <BiCaretUp />
             </span>
-            <span className='right-arrow footer-arror'>
+            <span className='right-arrow footer-arrow'>
               <BiCaretDown />
             </span>
           </Link>
