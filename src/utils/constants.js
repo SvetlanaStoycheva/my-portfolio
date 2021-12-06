@@ -8,6 +8,8 @@ import img07 from './gallery-images/img-07.png';
 import img09 from './gallery-images/img-09.png';
 import img10 from './gallery-images/img-10.png';
 import img11 from './gallery-images/img-11.png';
+import img12 from './gallery-images/img-12.png';
+import img13 from './gallery-images/img-13.png';
 // import img08 from './gallery-images/img-08.png';
 
 // export const gallery = [
@@ -113,6 +115,29 @@ export const projects = [
   },
   {
     id: 8,
+    title: 'Rest countries api App',
+    subtitle: 'HTML/CSS/React JS/API',
+    info:
+      'Frontend Mentor challenge. This App uses REST Countries API to pull country data and display it on the homepage. On initial load the user sees their own country and another 7 random countries from the same region. The user can: See all countries from the API and search for a country using an input form; Filters countries by region; Click on a country to see more detailed information on a separate page; Click through to the border countries on the detail page; Toggle the color scheme between light and dark mode',
+    img: img12,
+    url: 'https://sweta-fm-countries-api.netlify.app',
+    sourceCode:
+      'https://github.com/SvetlanaStoycheva/rest-countries-api-FM-react',
+    borderClass: 'border06',
+  },
+  {
+    id: 9,
+    title: 'Devjobs App',
+    subtitle: 'HTML/CSS/React JS',
+    info:
+      'Frontend Mentor challenge. The App is a devjobs board and the data is provided in a local data.json. The user can filter jobs on the home page by title, location, and whether a job is for a full-time position. The user can click on a job from the home page so that they can read more information and apply for the job. Toggle functionality between light and dark theme, the choice is saved on localStorage.',
+    img: img13,
+    url: 'https://sweta-devjobs-fm-react.netlify.app',
+    sourceCode: 'https://github.com/SvetlanaStoycheva/devjobs-app-FM-react',
+    borderClass: 'border05',
+  },
+  {
+    id: 10,
     title: 'Space Travel Company Website - Your Seat To Space',
     subtitle: 'HTML/CSS/Vanilla JS/Netlify serverless functions',
     info:
@@ -124,7 +149,7 @@ export const projects = [
     borderClass: 'border04',
   },
   {
-    id: 9,
+    id: 11,
     title: 'URL shortening landing page',
     subtitle: 'HTML/CSS/React JS/API',
     info:
@@ -136,7 +161,7 @@ export const projects = [
     borderClass: 'border05',
   },
   {
-    id: 10,
+    id: 12,
     title: 'Website for ski guiding company PowderWise Aspen',
     subtitle: 'CSS Flexbox',
     info:
