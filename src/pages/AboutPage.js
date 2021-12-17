@@ -20,11 +20,12 @@ const AboutPage = () => {
             development world. I took some online courses and prepared a
             portfolio. I'd love you to check it out.
           </p>
-          <button className='btn-clean about-btn' type='button'>
-            <Link className='btn-clean-text' to='/projects'>
+
+          <Link className='btn-clean-text' to='/projects'>
+            <button className='btn-clean about-btn' type='button'>
               go to portfolio
-            </Link>
-          </button>
+            </button>
+          </Link>
         </div>
       </section>
       <span className='long-line about-line'></span>
@@ -67,26 +68,27 @@ const AboutPage = () => {
               finding my own workflow and solve real-world coding problems.
             </p>
             <div className='social-buttons'>
-              <button className='btn-clean about-btn' type='button'>
-                <a
-                  className='btn-clean-text'
-                  href='https://github.com/SvetlanaStoycheva'
-                  target='_blank'
-                  rel='noreferrer noopener'
-                >
+              <a
+                className='btn-clean-text'
+                href='https://github.com/SvetlanaStoycheva'
+                target='_blank'
+                rel='noreferrer noopener'
+              >
+                <button className='btn-clean about-btn' type='button'>
                   my gitHub
-                </a>
-              </button>
-              <button className='btn-clean about-btn' type='button'>
-                <a
-                  className='btn-clean-text'
-                  href='https://www.frontendmentor.io/profile/SvetlanaStoycheva/solutions'
-                  target='_blank'
-                  rel='noreferrer noopener'
-                >
+                </button>
+              </a>
+
+              <a
+                className='btn-clean-text'
+                href='https://www.frontendmentor.io/profile/SvetlanaStoycheva'
+                target='_blank'
+                rel='noreferrer noopener'
+              >
+                <button className='btn-clean about-btn' type='button'>
                   my frontend mentor
-                </a>
-              </button>
+                </button>
+              </a>
             </div>
           </div>
         </div>

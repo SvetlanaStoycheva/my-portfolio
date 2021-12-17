@@ -38,25 +38,22 @@ const ProjectsPage = () => {
               <h4 className='subtitle'>{subtitle}</h4>
               <p>{info}</p>
               <div className='project-buttons'>
-                <button className='btn-clean' type='button'>
-                  <a
-                    type='button'
-                    href={url}
-                    target='_blank'
-                    rel='noreferrer noopener'
-                  >
+                <a
+                  href={url}
+                  type='button'
+                  target='_blank'
+                  rel='noreferrer noopener'
+                >
+                  <button className='btn-clean' type='button'>
                     view project
-                  </a>
-                </button>
-                <button className='btn-clean' type='button'>
-                  <a
-                    href={sourceCode}
-                    target='_blank'
-                    rel='noreferrer noopener'
-                  >
+                  </button>
+                </a>
+
+                <a href={sourceCode} target='_blank' rel='noreferrer noopener'>
+                  <button className='btn-clean' type='button'>
                     source code
-                  </a>
-                </button>
+                  </button>
+                </a>
               </div>
             </div>
           </div>

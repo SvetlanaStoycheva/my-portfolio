@@ -146,6 +146,7 @@ p {
 }
 .btn-clean:hover {
   background: var(--clr-primary-dark-blue);
+  color: var(--clr-primary-very-light-grey);
 }
 .btn-clean:hover a {
   color: var(--clr-primary-very-light-grey);

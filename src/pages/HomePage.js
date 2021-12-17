@@ -10,11 +10,12 @@ const HomePage = () => {
           <h3 className='section-title hero-title'>
             Hey, I'm Svetlana and I enjoy building things for the web.
           </h3>
-          <button type='button' className='btn'>
-            <Link className='btn-text' to='/about'>
+
+          <Link className='btn-text' to='/about'>
+            <button type='button' className='btn'>
               about me
-            </Link>
-          </button>
+            </button>
+          </Link>
         </div>
       </section>
       <section className='about-section'>
@@ -32,11 +33,12 @@ const HomePage = () => {
             development world. I took some online courses and prepared a
             portfolio. I'd love you to check it out.
           </p>
-          <button className='btn-clean about-btn' type='button'>
-            <Link className='btn-clean-text' to='/projects'>
+
+          <Link className='btn-clean-text' to='/projects'>
+            <button className='btn-clean about-btn' type='button'>
               go to portfolio
-            </Link>
-          </button>
+            </button>
+          </Link>
         </div>
       </section>
       <div className='say-hi'>
@@ -44,11 +46,11 @@ const HomePage = () => {
         {/* <hr /> */}
         <span className='line say-hi-line'></span>
 
-        <button className='btn-clean ' type='button'>
-          <Link className='btn-clean-text' to='/contact'>
+        <Link className='btn-clean-text' to='/contact'>
+          <button className='btn-clean ' type='button'>
             contact me
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
     </main>
   );
