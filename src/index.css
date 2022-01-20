@@ -790,7 +790,7 @@ Contact Page
 .contact-container {
   width: 85vw;
   max-width: var(--max-width);
-  height: 35vh;
+  /* height: 45vh; */
   margin: 0 auto;
 }
 .contact-social-link {
